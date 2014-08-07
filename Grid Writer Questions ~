@@ -1,0 +1,15 @@
+1. It's necessary to put "this->" in front of x and y because it explicitly shows which members are the function members. It also allows access to those variables after they've been overridden in the scope of the function. 
+
+2. In containsPoint of Circle, x and y are in scope because their pointers ("this->") are instance variables, gaining access to their values. 
+
+3. The purpose of having the keyword "virtual" in front of Shape::containsPoint and Shape::getArea is to be able to redefine these functions the derived classes of Shapes. The purpose of having " = 0" is to make these virtual functions into pure virtual functions. 
+
+
+4. The purpose of ":Shape(x, y)" is to pass x and y into the Shape constructor. If you remove it, then you get an error because you are not doing anything with two of the three arguments you passes to the Circle constructor. 
+
+
+
+
+5. List all the examples of polymorphism that you can find. That is to
+   say, statements where the datatype of a reference or pointer is not 
+   an exact match with the datatype of the object that it refers to. 

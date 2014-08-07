@@ -1,0 +1,14 @@
+Rodriguez, Rosalba
+
+Board Design:
+	I would have one constructor for the Board and also one copy 		constructor. The constructor would make a board of 		one set size. 
+
+Methods
+	//place the ships on the board making sure they are fully on 		//the board and do not conflcit with other ships
+	placeShips()
+	
+	//update and display the board once a shot is fired
+	displayBoard()
+	
+	//keep track of which points on the board have been chosen
+	boardPointChosen()

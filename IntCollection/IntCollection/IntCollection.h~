@@ -1,0 +1,22 @@
+#ifndef INT_COLLECTION_H
+#define INT_COLLECTION_H
+
+class IntCollection
+{
+  private: 
+    int size;
+    int capacity;
+    int *data;
+    
+    void doubleArraySize();
+    
+  public: 
+    IntCollection();
+
+    void add(int value);
+    int get(int index);
+
+    int getSize();
+};
+
+#endif
